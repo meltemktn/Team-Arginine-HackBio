@@ -41,7 +41,7 @@ where $K = 0.8$.
 
 To do so, we utilize the parameters for the growth rate, initial concentration and final concentration as parameters within the function. We insert them in a formula described within the function and return a print statement. We apply the formula below as such: 
 
-$t= -(ln(((0.8/P_t)-1)/((0.8-P_0)/P_0))/r)$
+$t= -((ln((0.8/P_t)-1)-ln((0.8-P_0)/P_0))/r)$
 
 
 **Function 4: Calculating the Hamming distance between a Slack username and a Twitter/X username**
