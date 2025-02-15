@@ -28,7 +28,7 @@ The function we constructed takes three parameters for the initial population si
 
 $P(t) = \frac{1}{1 + \left(\frac{1 - P_0}{P_0}\right) * e^{-rt}}$
 
-Next, we define 
+After running the function, a plot is created. To simulate changes in the concentrations for 100 times, a for loop with 
   
 
 **Function 3: Determining the time to reach 80% of the maximum growth - based on Function 2**
