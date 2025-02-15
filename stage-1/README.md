@@ -16,7 +16,7 @@ $P(t) = \frac{K}{1 + \left(\frac{K - P_0}{P_0}\right) e^{-rt}}$
 
 Where 
 
-* $P(t)$ is the population size/concentration/OD<sub>600</sub> at timepoint $t$,
+* $P(t)$ is the population size/concentration/OD at timepoint $t$,
 * $K$ is the maximum carrying capacity,
 * $t$ is time,
 * $P_0$ is the initial population size/OD<sub>600</sub> at $t=0$,
