@@ -28,8 +28,7 @@ The function we constructed takes three parameters for the initial population si
 
 $P(t) = \frac{1}{1 + \left(\frac{1 - P_0}{P_0}\right) * e^{-rt}}$
 
-After running the function, a plot is created. To simulate changes in the concentrations for 100 times, a for loop with 
-  
+After running the function, a plot is set up. To simulate changes in the concentrations for 100 times, a for loop with random initial concentration values and random growth rates is created. Next, these random values are given as inputs for the logistic growth curve function, along with the defined time range. The function is run for 100 times within the loop, while lines for each output are generated with randomly selected colors from the RGB scale.
 
 **Function 3: Determining the time to reach 80% of the maximum growth - based on Function 2**
 
@@ -48,7 +47,7 @@ $t= -((ln((0.8/P_t)-1)-ln((0.8-P_0)/P_0))/r)$
 
 Hamming distance is the number of substitutions required for two strings of equal length to be the same. It can also be described as the number of positions at which the corresponding symbols are different. For more information see [Hamming distance](https://en.wikipedia.org/wiki/Hamming_distance). 
 
-The function takes a Slack username and Twitter/X username as parameters. It splits the usernames into their individual characters simultaneously appended to their corresponding vectors with the **strsplit** function. After comparing the username vectors with each other for their lengths, the function compares each character within these vectors based on their positions. In the meantime, a variable for the Hamming distance between two usernames is initialized. If a character within the first username/vector is different from that within the second username/vector, the Hamming distance is increased by 1. Finally, it returns a statement that describes the Hamming distance between two strings. 
+The function takes a Slack username and a Twitter/X username as parameters. It splits the usernames into their individual characters simultaneously appended to their corresponding vectors with the **strsplit** function. After comparing the username vectors with each other for their lengths, the function compares each character within these vectors based on their positions. In the meantime, a variable for the Hamming distance between two usernames is initialized. If a character within the first username/vector is different from that within the second username/vector, the Hamming distance is increased by 1. Finally, it returns a statement that describes the Hamming distance between the two strings. 
 
 
 
