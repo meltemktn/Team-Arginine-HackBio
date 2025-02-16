@@ -6,6 +6,7 @@
 # Manav Vaish (GitHub: @manavvaish)
 # Favour_Imoniye (GitHub: @Favour-Imoniye)
 # GitHub link to the team-arginine repository for stage-1:
+# https://github.com/meltemktn/Team-Arginine-HackBio/tree/main/stage-1
 
 
 # Function 1: Translation of DNA to protein
