@@ -12,7 +12,7 @@ This function takes a DNA sequence as input. It slices the sequence into sub-str
 
 Logistic growth refers to the type of population growth where unlike the exponential growth, the resources are limited and the growth rate is influenced by population size, leading to a sustainable maximum point known as **carrying capacity (K)**. The logistic growth curve is characterized by an S-shaped curve, whose function is
 
-$P(t) = \frac{K}{1 + \left(\frac{K - P_0}{P_0}\right) e^{-rt}}$
+$P(t) = \frac{K}{1 + \left(\frac{K - P_0}{P_0}\right)*e^{-rt}}$
 
 Where 
 
