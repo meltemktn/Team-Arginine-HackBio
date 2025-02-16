@@ -38,7 +38,7 @@ $P(t) = \frac{0.8}{1 + \left(\frac{0.8 - P_0}{P_0}\right)*e^{-rt}}$
 
 where $K = 0.8$.
 
-To do so, we utilize the parameters for the growth rate, initial concentration and final concentration as parameters within the function. We insert them in a formula described within the function and return a print statement. We apply the formula below as such: 
+To do so, we utilize the growth rate, initial concentration and final concentration as parameters within the function. We insert them in a formula described within the function and return a print statement. We apply the formula below as such: 
 
 $t= -((ln((0.8/P_t)-1)-ln((0.8-P_0)/P_0))/r)$
 
