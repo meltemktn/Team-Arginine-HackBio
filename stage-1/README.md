@@ -19,7 +19,7 @@ Where
 * $P(t)$ is the population size/concentration/OD at timepoint $t$,
 * $K$ is the maximum carrying capacity,
 * $t$ is time,
-* $P_0$ is the initial population size/OD<sub>600</sub> at $t=0$,
+* $P_0$ is the initial population size/OD at $t=0$,
 * $r$ is the growth rate.
 
 If the population size is smaller than the carrying capacity ($K$), the growth is nearly exponential. As it reaches to $K$, growth slows down as        $\left(\frac{K - P_0}{P_0}\right)$ approaches 0. When the population size is equal to $K$, the population stabilizes.
@@ -32,7 +32,7 @@ After running the function, a plot is set up. To simulate changes in the concent
 
 **Function 3: Determining the time to reach 80% of the maximum growth - based on Function 2**
 
-Based on the function above, we attempt to calculate the time it takes for a population to reach 80% of its carrying capacity (or an OD<sub>600</sub> of 0.8 for a microbial culture). The above expression therefore turns into:
+Based on the function above, we attempt to calculate the time it takes for a population to reach 80% of its carrying capacity (or an OD<sub>600</sub> of 0.8 for a microbial culture, for instance). The above expression therefore turns into:
 
 $P(t) = \frac{0.8}{1 + \left(\frac{0.8 - P_0}{P_0}\right)*e^{-rt}}$
 
