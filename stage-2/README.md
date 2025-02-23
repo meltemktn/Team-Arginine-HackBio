@@ -19,7 +19,7 @@ The first part of the task involves the creation of plotting growth curves (OD<s
 Finally, a scatterplot and a boxplot are generated. Using the carrying capacity dataframe mentioned earlier, a t-test between wild-type and knock-out means is conducted to see whether there is any statistical difference between the time it takes them to reach their carrying capacities. 
 
 
-**Task 2.6: Transcriptomics**
+**Task 2.6: Transcriptomics** <br>
 The dataset can be found [here](https://gist.githubusercontent.com/stephenturner/806e31fce55a8b7175af/raw/1a507c4c3f9f1baaa3a69187223ff3d3050628d4/results.txt).
 
 The goal of this task is to visualize differential gene expression data via volcano plot, categorize the various gene expressions, and determine the function of the top 5 genes using [genecards](https://www.genecards.org/). 
