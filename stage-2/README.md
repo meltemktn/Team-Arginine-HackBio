@@ -25,4 +25,4 @@ The dataset can be found [here](https://gist.githubusercontent.com/stephenturner
 The goal of this task is to visualize differential gene expression data via volcano plot, categorize the various gene expressions, and determine the function of the top 5 genes using [genecards](https://www.genecards.org/). 
 To provide some perspective, the dataset contains an experiment between a diseased cell line and diseased cell lines treated with compound X. The difference in expression change between the two health statuses is computed as log2FoldChange and p-value.
 
-The solutions to the task can be found [here] (https://github.com/meltemktn/Team-Arginine-HackBio/blob/main/stage-2/Transcriptomics_task.R) and all the codes are written in R. 
+The solutions to the task can be found [here](https://github.com/meltemktn/Team-Arginine-HackBio/blob/main/stage-2/Transcriptomics_task.R) and all the codes are written in R. 
