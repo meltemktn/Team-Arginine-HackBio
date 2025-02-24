@@ -7,7 +7,7 @@
 # Favour_Imoniye (GitHub: @Favour-Imoniye)
 # GitHub link to the team-arginine repository for stage-2:
 # https://github.com/meltemktn/Team-Arginine-HackBio/tree/main/stage-2
-# Link to the video submission: 
+# Link to the video submission: https://shorturl.at/s9Au4
 
 
 # Task Code 2.1: Microbiology
