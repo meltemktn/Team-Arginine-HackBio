@@ -26,3 +26,19 @@ The goal of this task is to visualize differential gene expression data via volc
 To provide some perspective, the dataset contains an experiment between a diseased cell line and diseased cell lines treated with compound X. The difference in expression change between the two health statuses is computed as log2FoldChange and p-value.
 
 The solutions to the task can be found [here](https://github.com/meltemktn/Team-Arginine-HackBio/blob/main/stage-2/Transcriptomics_task.R) and all the codes are written in R. 
+
+
+**Task 2.7: Public Health**
+
+This task explores the NHANES [dataset](https://raw.githubusercontent.com/HackBio-Internship/public_datasets/main/R/nhanes.csv) to provide useful insights into the health status and health risk factors of 5000 US citizens. The first step of the analyses involves the processing of the missing values to ensure data accuracy and eradicate the chances of skewed results. This was achieved by converting all NAs (missing data) into 0 as required by the task instructions.
+
+The second part of the task involves visualizing the distribution of BMI, Weight, Weight in Pounds and Age using Histograms. For this, the ggplot2 visualization package was installed to enhance the flexibility and complexity of the generated charts. The subset function was used to exclude any outliers in the data and the **aes()** function was used to map the axes.
+
+The histogram for Weight in Pounds employed a similar formula, with the only difference being the introduction of a variable which calculated the new weight column by multiplying the old weight column by 2.2.
+
+The mean 60-second pulse rate was derived by applying the **mean ()** function on the Pulse column of the dataset. The range of values for the diastolic blood pressure in all participants was determined by establishing the bounds of the values using the **min()** and **max ()** functions.
+Likewise, the variance and standard deviation of the incomes of all participants were derived using the **var()** and **sd()** functions.
+Scatterplots were also used to visualize the relationships between the Weight and Height columns across other relevant variables such as Gender, Diabetes (status), and Smoking status.
+
+Lastly, t-tests were performed to evaluate the relationships between variables such as Age and Gender, BMI and Diabetes and Alcohol year and relationships. The resultant p-values were then used to examine statistical differences and draw conclusions about the status of the null hypothesis.
+
