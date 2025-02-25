@@ -19,6 +19,32 @@ The first part of the task involves the creation of plotting growth curves (OD<s
 Finally, a scatterplot and a boxplot are generated. Using the carrying capacity dataframe mentioned earlier, a t-test between wild-type and knock-out means is conducted to see whether there is any statistical difference between the time it takes them to reach their carrying capacities. 
 
 
+**Task 2.3: Botany and Plant Science** 
+
+This analysis compares the metabolic response of wild-type (WT) and mutant plants to pesticide treatment. The goal is to identify key metabolic differences between them.
+
+***Processing the Data***
+
+Metabolic changes (ΔM) are calculated by comparing 24h pesticide treatment to the DMSO control for both WT and mutant plants.
+
+***Scatter Plot Analysis***
+
+* A scatter plot visualizes ΔM differences between WT and mutants.
+* A reference line (slope = 1, intercept = 0) is added.
+* Metabolites are color-coded:
+  Grey: Residuals within ±0.3 (similar response).
+  Salmon: Residuals outside ±0.3 (notable differences).
+
+***Outlier & Trend Analysis***
+
+Six outlier metabolites (largest deviations) are selected and their metabolic changes over 0h, 8h, and 24h are plotted.
+
+***Findings*** 
+
+Some metabolites show distinct responses in mutants, hinting at potential metabolic shifts linked to pesticide resistance.
+
+
+
 **Task 2.6: Transcriptomics**
 
 The dataset can be found [here](https://gist.githubusercontent.com/stephenturner/806e31fce55a8b7175af/raw/1a507c4c3f9f1baaa3a69187223ff3d3050628d4/results.txt).
