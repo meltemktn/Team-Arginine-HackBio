@@ -21,7 +21,7 @@ Finally, a scatterplot and a boxplot are generated. Using the carrying capacity 
 
 **Task 2.3: Botany and Plant Science** 
 
-This analysis compares the metabolic response of wild-type (WT) and mutant plants to pesticide treatment. The goal is to identify key metabolic differences between them.
+This analysis compares the metabolic response of wild-type (WT) and mutant plants to pesticide treatment. The goal is to identify key metabolic differences between them. The dataset can be found [here](https://raw.githubusercontent.com/HackBio-Internship/2025_project_collection/refs/heads/main/Python/Dataset/Pesticide_treatment_data.txt).
 
 ***Processing the Data***
 
