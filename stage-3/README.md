@@ -5,5 +5,6 @@ The Stage 3 project of the [HackBio](https://thehackbio.com) February 2025 inter
 Using the information given in the dataset, we attempted to answer the questions below:
 
 - How similar are these molecules to each other?
+- Can we differentiate decoys from the active molecules?
 - Can we effectively predict the docking score using the chemical features of ligands alone?
 
