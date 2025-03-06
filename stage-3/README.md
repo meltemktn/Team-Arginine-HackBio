@@ -7,4 +7,6 @@ Using the information given in the dataset, we attempted to answer the questions
 - How similar are these molecules to each other?
 - Can we differentiate decoys from the active molecules?
 - Can we effectively predict the docking score using the chemical features of ligands alone?
+- Which chemical features can be used to determine if a ligand binds to a target protein?
+
 
