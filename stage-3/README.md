@@ -15,6 +15,8 @@ For the evaluation of the similarity of ligands within a chemical space represen
 
 The elbow method was employed to determine the optimum number of clusters for k-means clustering by selecting different k values ranging from 1 to 10 and calculating their within cluster sum of squares (WCSS). Once the optimum number of clusters was determined, the **"kmeans"** function was applied on the PCA-reduced data, wherein each datapoint was assigned to the clusters that contained the centroid closest to them.
 
+Based on the findings from the examination of the docking score densities across all clusters, Cluster 9 exhibited the highest amount of low docking scores, indicating its dominant composition of compounds with high binding affinity.
+
 ## Linear Regression and Random Forest Regression
 
 To answer the last two questions, both a linear regression and a random forest regression model were applied by first downsizing the data to 10000 rows only for efficiency and then separating the reduced dataset into training and test datasets following the 80-20 rule. Next, for comparison, each model was trained with 5-times cross-validation using the **“lm”** and **"rf"** methods of the **“train”** function in the **caret** package of R. 
