@@ -14,7 +14,6 @@ install.packages("ClusterR")
 install.packages ("viridis")
 install.packages("uwot")
 
-
 #Load the libraries
 library (dplyr)
 library (ggplot2)
@@ -24,7 +23,6 @@ library(ClusterR)
 library(viridis)
 library(tidyr)
 library(uwot)
-
 
 #Load the data set
 Chem_descriptor <- read.csv("C:\\Users\\Favour Imoniye\\Downloads\\Genomac Hub\\drug_desc_to_wale.txt", sep = "\t", header = TRUE)
@@ -58,7 +56,6 @@ Scaled_dockingscore <- scale(Docking_filtered)
 ScaledDS<- data.frame(Scaled_dockingscore)
 head(ScaledDS)
 
-
 #Visualize the distribution of outliers in the data sets
 boxplot(Chemdescript_scaled, las = 2, col = "lightgray", pch = 16, cex = 0.6,
         main = "Boxplot of Molecular Properties")
@@ -66,7 +63,6 @@ boxplot(ScaledDS, main= "Box Plot of Docking Scores",
         ylab= "Docking Score",
         col = "lightblue",
         border="black")
-
 
 # Compute the PCA
 Chem_pca <- prcomp(Chemdescript_scaled, center = TRUE, scale. = TRUE, rank. = 25)  # Keep only first 25 PCs
@@ -109,7 +105,6 @@ Final_Data<- data.frame(chem_matrix,
                          Cluster = as.factor(clusters_assigned),
                          DockingScores = ScaledDS)
 colnames(Final_Data) [colnames(Final_Data) == "Chem_descriptor.score"] <- "DockingScores"
-
 
 # Visualize the docking scores across the chemical space using PCA
 ggplot(Final_Data, aes(x = PC1, y = PC2, color = DockingScores)) +
@@ -187,4 +182,3 @@ theme(plot.title=element_text(size= 25, hjust=0.5),
       legend.title = element_text(size = 12, face = "bold"),
       legend.text = element_text(size = 12)
 )
-
